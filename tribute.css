@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background: black;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top:80px;
+}
+
+
+
+header {
+    background-color: #f9f9f9;
+  
+    text-align: center;
+    position:fixed;
+    width:100%;
+    height:5rem;
+   
+}
+
+
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 50rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.info {
+    margin-top: 20px;
+}
+
+.details-list {
+    list-style: none;
+    padding: 0;
+}
+
+.details-list li {
+    margin-bottom: 10px;
+    color:white;
+}
+.details-list li strong{
+    color:red;
+}
+
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    color: #3e3e3e;
+}
+
+
+section:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+}
+h2{
+    color:red;
+}
+p{
+    color:white;
+}
+.sections{
+    background: url(image2.webp);
+}
+
+footer {
+    
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+
+
